@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe | Web Developer Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">John Doe</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Creative Web Developer</h1>
+                <p>I build engaging, user-friendly websites that deliver results</p>
+                <a href="projects.html" class="btn">View My Work</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section class="featured-projects">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="images/project-1.jpg" alt="E-commerce Website">
+                    <h3>E-commerce Store</h3>
+                    <p>Full-stack e-commerce solution with React and Node.js</p>
+                    <a href="projects.html#project1" class="btn-secondary">View Details</a>
+                </div>
+                <div class="project-card">
+                    <img src="images/project-2.jpg" alt="Travel Blog">
+                    <h3>Travel Blog Platform</h3>
+                    <p>Content management system for travel enthusiasts</p>
+                    <a href="projects.html#project2" class="btn-secondary">View Details</a>
+                </div>
+                <div class="project-card">
+                    <img src="images/project-3.jpg" alt Fitness App">
+                    <h3>Fitness Tracking App</h3>
+                    <p>Mobile application for workout planning and progress tracking</p>
+                    <a href="projects.html#project3" class="btn-secondary">View Details</a>
+                </div>
+            </div>
+            <div class="center">
+                <a href="projects.html" class="btn">See All Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 John Doe. All rights reserved.</p>
+            <ul class="social-links">
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">GitHub</a></li>
+                <li><a href="#">Twitter</a></li>
+            </ul>
+        </div>
+    </footer>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | John Doe Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">John Doe</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <h1>About Me</h1>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/profile.jpg" alt="John Doe">
+                </div>
+                <div class="about-text">
+                    <h2>Hello! I'm John, a web developer based in New York.</h2>
+                    <p>With over 5 years of experience in web development, I specialize in creating responsive, user-friendly websites and applications. My passion lies in solving complex problems with elegant code and delivering exceptional user experiences.</p>
+                    <p>When I'm not coding, you can find me hiking, reading, or experimenting with new technologies in my home lab.</p>
+                    
+                    <h3>Skills & Expertise</h3>
+                    <div class="skills">
+                        <div class="skill">HTML5 & CSS3</div>
+                        <div class="skill">JavaScript</div>
+                        <div class="skill">React</div>
+                        <div class="skill">Node.js</div>
+                        <div class="skill">UI/UX Design</div>
+                        <div class="skill">Responsive Design</div>
+                    </div>
+                    
+                    <a href="contact.html" class="btn">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 John Doe. All rights reserved.</p>
+            <ul class="social-links">
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">GitHub</a></li>
+                <li><a href="#">Twitter</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | John Doe Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">John Doe</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html" class="active">Projects</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Projects Section -->
+    <section class="projects">
+        <div class="container">
+            <h1>My Projects</h1>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="app">Mobile Apps</button>
+                <button class="filter-btn" data-filter="ui">UI/UX Design</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="web">
+                    <img src="images/project-1.jpg" alt="E-commerce Website">
+                    <div class="project-info">
+                        <h3>E-commerce Store</h3>
+                        <p>Full-stack e-commerce solution with React and Node.js</p>
+                        <a href="#" class="btn-secondary">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card" data-category="app">
+                    <img src="images/project-2.jpg" alt="Fitness App">
+                    <div class="project-info">
+                        <h3>Fitness Tracking App</h3>
+                        <p>Mobile application for workout planning and progress tracking</p>
+                        <a href="#" class="btn-secondary">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web">
+                    <img src="images/project-3.jpg" alt="Travel Blog">
+                    <div class="project-info">
+                        <h3>Travel Blog Platform</h3>
+                        <p>Content management system for travel enthusiasts</p>
+                        <a href="#" class="btn-secondary">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card" data-category="ui">
+                    <img src="images/project-4.jpg" alt="Dashboard UI">
+                    <div class="project-info">
+                        <h3>Analytics Dashboard</h3>
+                        <p>User interface design for a data visualization dashboard</p>
+                        <a href="#" class="btn-secondary">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web">
+                    <img src="images/project-5.jpg" alt="Restaurant Website">
+                    <div class="project-info">
+                        <h3>Restaurant Website</h3>
+                        <p>Responsive website with online reservation system</p>
+                        <a href="#" class="btn-secondary">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card" data-category="app">
+                    <img src="images/project-6.jpg" alt="Weather App">
+                    <div class="project-info">
+                        <h3>Weather Application</h3>
+                        <p>Real-time weather forecasting application</p>
+                        <a href="#" class="btn-secondary">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 John Doe. All rights reserved.</p>
+            <ul class="social-links">
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">GitHub</a></li>
+                <li><a href="#">Twitter</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/project-filter.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | John Doe Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">John Doe</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="services.html" class="active">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="container">
+            <h1>Services I Offer</h1>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">💻</div>
+                    <h3>Web Development</h3>
+                    <p>Custom website development from simple landing pages to complex web applications.</p>
+                    <ul>
+                        <li>Responsive Design</li>
+                        <li>Frontend & Backend</li>
+                        <li>E-commerce Solutions</li>
+                        <li>API Integration</li>
+                    </ul>
+                    <p class="price">Starting at $1,500</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>Mobile App Development</h3>
+                    <p>Cross-platform mobile applications for iOS and Android using modern frameworks.</p>
+                    <ul>
+                        <li>React Native Development</li>
+                        <li>UI/UX Design</li>
+                        <li>App Store Deployment</li>
+                        <li>Maintenance & Updates</li>
+                    </ul>
+                    <p class="price">Starting at $3,000</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3>UI/UX Design</h3>
+                    <p>User-centered design solutions that enhance usability and create engaging experiences.</p>
+                    <ul>
+                        <li>Wireframing & Prototyping</li>
+                        <li>User Research</li>
+                        <li>Interaction Design</li>
+                        <li>Design Systems</li>
+                    </ul>
+                    <p class="price">Starting at $1,000</p>
+                </div>
+            </div>
+            <div class="center">
+                <a href="contact.html" class="btn">Get a Quote</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 John Doe. All rights reserved.</p>
+            <ul class="social-links">
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">GitHub</a></li>
+                <li><a href="#">Twitter</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | John Doe Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">John Doe</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+                <div class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="container">
+            <h1>Get In Touch</h1>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Let's talk about your project</h2>
+                    <p>I'm currently available for freelance work. Feel free to reach out if you have a project in mind or just want to connect.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <h3>Email</h3>
+                            <p>john@example.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>Phone</h3>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>Location</h3>
+                            <p>New York, NY</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#">LinkedIn</a>
+                        <a href="#">GitHub</a>
+                        <a href="#">Twitter</a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                            <span class="error-message" id="nameError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                            <span class="error-message" id="emailError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                            <span class="error-message" id="subjectError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <span class="error-message" id="messageError"></span>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                    <div id="successMessage" class="success-message"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 John Doe. All rights reserved.</p>
+            <ul class="social-links">
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">GitHub</a></li>
+                <li><a href="#">Twitter</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/form-validation.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
