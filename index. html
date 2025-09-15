@@ -1,492 +1,987 @@
+html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>John Doe | Web Developer Portfolio</title>
+    <title>NutriWell - Hypertension Management & Healthy Eating</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
     <!-- Header -->
     <header>
-        <div class="container">
+        <div class="container header-container">
             <div class="logo">
-                <a href="index.html">John Doe</a>
+                <h1>Nutri<span>Well</span></h1>
             </div>
             <nav>
-                <ul>
-                    <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                <ul id="nav-menu">
+                    <li><a href="index.html" class="nav-link active">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About Us</a></li>
+                    <li><a href="services.html" class="nav-link">Services</a></li>
+                    <li><a href="nutrition.html" class="nav-link">Nutrition Guide</a></li>
+                    <li><a href="hypertension.html" class="nav-link">Hypertension</a></li>
+                    <li><a href="gallery.html" class="nav-link">Success Stories</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
                 </ul>
-                <div class="menu-toggle">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                <div class="hamburger" id="hamburger">
+                    ☰
                 </div>
             </nav>
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1>Creative Web Developer</h1>
-                <p>I build engaging, user-friendly websites that deliver results</p>
-                <a href="projects.html" class="btn">View My Work</a>
+    <!-- Home Page Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <h2>Manage Hypertension Through Healthy Eating</h2>
+                <p>Discover how proper nutrition can help you control blood pressure and live a healthier life</p>
+                <a href="nutrition.html" class="btn">Learn More</a>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Featured Projects -->
-    <section class="featured-projects">
-        <div class="container">
-            <h2>Featured Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <img src="images/project-1.jpg" alt="E-commerce Website">
-                    <h3>E-commerce Store</h3>
-                    <p>Full-stack e-commerce solution with React and Node.js</p>
-                    <a href="projects.html#project1" class="btn-secondary">View Details</a>
+        <!-- Features Section -->
+        <section class="features">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Our Approach</h2>
                 </div>
-                <div class="project-card">
-                    <img src="images/project-2.jpg" alt="Travel Blog">
-                    <h3>Travel Blog Platform</h3>
-                    <p>Content management system for travel enthusiasts</p>
-                    <a href="projects.html#project2" class="btn-secondary">View Details</a>
-                </div>
-                <div class="project-card">
-                    <img src="images/project-3.jpg" alt Fitness App">
-                    <h3>Fitness Tracking App</h3>
-                    <p>Mobile application for workout planning and progress tracking</p>
-                    <a href="projects.html#project3" class="btn-secondary">View Details</a>
-                </div>
-            </div>
-            <div class="center">
-                <a href="projects.html" class="btn">See All Projects</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <p>&copy; 2023 John Doe. All rights reserved.</p>
-            <ul class="social-links">
-                <li><a href="#">LinkedIn</a></li>
-                <li><a href="#">GitHub</a></li>
-                <li><a href="#">Twitter</a></li>
-            </ul>
-        </div>
-    </footer>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me | John Doe Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-</head>
-<body>
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="logo">
-                <a href="index.html">John Doe</a>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html" class="active">About</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-                <div class="menu-toggle">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </nav>
-        </div>
-    </header>
-
-    <!-- About Section -->
-    <section class="about">
-        <div class="container">
-            <h1>About Me</h1>
-            <div class="about-content">
-                <div class="about-image">
-                    <img src="images/profile.jpg" alt="John Doe">
-                </div>
-                <div class="about-text">
-                    <h2>Hello! I'm John, a web developer based in New York.</h2>
-                    <p>With over 5 years of experience in web development, I specialize in creating responsive, user-friendly websites and applications. My passion lies in solving complex problems with elegant code and delivering exceptional user experiences.</p>
-                    <p>When I'm not coding, you can find me hiking, reading, or experimenting with new technologies in my home lab.</p>
-                    
-                    <h3>Skills & Expertise</h3>
-                    <div class="skills">
-                        <div class="skill">HTML5 & CSS3</div>
-                        <div class="skill">JavaScript</div>
-                        <div class="skill">React</div>
-                        <div class="skill">Node.js</div>
-                        <div class="skill">UI/UX Design</div>
-                        <div class="skill">Responsive Design</div>
-                    </div>
-                    
-                    <a href="contact.html" class="btn">Get In Touch</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <p>&copy; 2023 John Doe. All rights reserved.</p>
-            <ul class="social-links">
-                <li><a href="#">LinkedIn</a></li>
-                <li><a href="#">GitHub</a></li>
-                <li><a href="#">Twitter</a></li>
-            </ul>
-        </div>
-    </footer>
-
-    <script src="js/main.js"></script>
-</body>
-</html>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects | John Doe Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-</head>
-<body>
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="logo">
-                <a href="index.html">John Doe</a>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="projects.html" class="active">Projects</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-                <div class="menu-toggle">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </nav>
-        </div>
-    </header>
-
-    <!-- Projects Section -->
-    <section class="projects">
-        <div class="container">
-            <h1>My Projects</h1>
-            <div class="filter-buttons">
-                <button class="filter-btn active" data-filter="all">All</button>
-                <button class="filter-btn" data-filter="web">Web Development</button>
-                <button class="filter-btn" data-filter="app">Mobile Apps</button>
-                <button class="filter-btn" data-filter="ui">UI/UX Design</button>
-            </div>
-            <div class="projects-grid">
-                <div class="project-card" data-category="web">
-                    <img src="images/project-1.jpg" alt="E-commerce Website">
-                    <div class="project-info">
-                        <h3>E-commerce Store</h3>
-                        <p>Full-stack e-commerce solution with React and Node.js</p>
-                        <a href="#" class="btn-secondary">View Project</a>
-                    </div>
-                </div>
-                <div class="project-card" data-category="app">
-                    <img src="images/project-2.jpg" alt="Fitness App">
-                    <div class="project-info">
-                        <h3>Fitness Tracking App</h3>
-                        <p>Mobile application for workout planning and progress tracking</p>
-                        <a href="#" class="btn-secondary">View Project</a>
-                    </div>
-                </div>
-                <div class="project-card" data-category="web">
-                    <img src="images/project-3.jpg" alt="Travel Blog">
-                    <div class="project-info">
-                        <h3>Travel Blog Platform</h3>
-                        <p>Content management system for travel enthusiasts</p>
-                        <a href="#" class="btn-secondary">View Project</a>
-                    </div>
-                </div>
-                <div class="project-card" data-category="ui">
-                    <img src="images/project-4.jpg" alt="Dashboard UI">
-                    <div class="project-info">
-                        <h3>Analytics Dashboard</h3>
-                        <p>User interface design for a data visualization dashboard</p>
-                        <a href="#" class="btn-secondary">View Project</a>
-                    </div>
-                </div>
-                <div class="project-card" data-category="web">
-                    <img src="images/project-5.jpg" alt="Restaurant Website">
-                    <div class="project-info">
-                        <h3>Restaurant Website</h3>
-                        <p>Responsive website with online reservation system</p>
-                        <a href="#" class="btn-secondary">View Project</a>
-                    </div>
-                </div>
-                <div class="project-card" data-category="app">
-                    <img src="images/project-6.jpg" alt="Weather App">
-                    <div class="project-info">
-                        <h3>Weather Application</h3>
-                        <p>Real-time weather forecasting application</p>
-                        <a href="#" class="btn-secondary">View Project</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <p>&copy; 2023 John Doe. All rights reserved.</p>
-            <ul class="social-links">
-                <li><a href="#">LinkedIn</a></li>
-                <li><a href="#">GitHub</a></li>
-                <li><a href="#">Twitter</a></li>
-            </ul>
-        </div>
-    </footer>
-
-    <script src="js/main.js"></script>
-    <script src="js/project-filter.js"></script>
-</body>
-</html>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services | John Doe Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-</head>
-<body>
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="logo">
-                <a href="index.html">John Doe</a>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="services.html" class="active">Services</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-                <div class="menu-toggle">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </nav>
-        </div>
-    </header>
-
-    <!-- Services Section -->
-    <section class="services">
-        <div class="container">
-            <h1>Services I Offer</h1>
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon">💻</div>
-                    <h3>Web Development</h3>
-                    <p>Custom website development from simple landing pages to complex web applications.</p>
-                    <ul>
-                        <li>Responsive Design</li>
-                        <li>Frontend & Backend</li>
-                        <li>E-commerce Solutions</li>
-                        <li>API Integration</li>
-                    </ul>
-                    <p class="price">Starting at $1,500</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">📱</div>
-                    <h3>Mobile App Development</h3>
-                    <p>Cross-platform mobile applications for iOS and Android using modern frameworks.</p>
-                    <ul>
-                        <li>React Native Development</li>
-                        <li>UI/UX Design</li>
-                        <li>App Store Deployment</li>
-                        <li>Maintenance & Updates</li>
-                    </ul>
-                    <p class="price">Starting at $3,000</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">🎨</div>
-                    <h3>UI/UX Design</h3>
-                    <p>User-centered design solutions that enhance usability and create engaging experiences.</p>
-                    <ul>
-                        <li>Wireframing & Prototyping</li>
-                        <li>User Research</li>
-                        <li>Interaction Design</li>
-                        <li>Design Systems</li>
-                    </ul>
-                    <p class="price">Starting at $1,000</p>
-                </div>
-            </div>
-            <div class="center">
-                <a href="contact.html" class="btn">Get a Quote</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <p>&copy; 2023 John Doe. All rights reserved.</p>
-            <ul class="social-links">
-                <li><a href="#">LinkedIn</a></li>
-                <li><a href="#">GitHub</a></li>
-                <li><a href="#">Twitter</a></li>
-            </ul>
-        </div>
-    </footer>
-
-    <script src="js/main.js"></script>
-</body>
-</html>
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact | John Doe Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-</head>
-<body>
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="logo">
-                <a href="index.html">John Doe</a>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="contact.html" class="active">Contact</a></li>
-                </ul>
-                <div class="menu-toggle">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </nav>
-        </div>
-    </header>
-
-    <!-- Contact Section -->
-    <section class="contact">
-        <div class="container">
-            <h1>Get In Touch</h1>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h2>Let's talk about your project</h2>
-                    <p>I'm currently available for freelance work. Feel free to reach out if you have a project in mind or just want to connect.</p>
-                    <div class="contact-details">
-                        <div class="contact-item">
-                            <h3>Email</h3>
-                            <p>john@example.com</p>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-img">
+                            <img src="https://source.unsplash.com/random/600x400/?diet" alt="Personalized Diet Plans">
                         </div>
-                        <div class="contact-item">
-                            <h3>Phone</h3>
-                            <p>+1 (555) 123-4567</p>
-                        </div>
-                        <div class="contact-item">
-                            <h3>Location</h3>
-                            <p>New York, NY</p>
+                        <div class="feature-content">
+                            <h3>Personalized Diet Plans</h3>
+                            <p>Custom nutrition plans tailored to your specific health needs and preferences.</p>
                         </div>
                     </div>
+                    <div class="feature-card">
+                        <div class="feature-img">
+                            <img src="https://source.unsplash.com/random/600x400/?education" alt="Nutrition Education">
+                        </div>
+                        <div class="feature-content">
+                            <h3>Nutrition Education</h3>
+                            <p>Learn how different foods affect your blood pressure and overall health.</p>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-img">
+                            <img src="https://source.unsplash.com/random/600x400/?support" alt="Ongoing Support">
+                        </div>
+                        <div class="feature-content">
+                            <h3>Ongoing Support</h3>
+                            <p>Regular follow-ups and adjustments to ensure you stay on track with your goals.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Healthy Plate Section -->
+        <section class="plate-section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>The Hypertension-Friendly Plate</h2>
+                </div>
+                <div class="plate-container">
+                    <div class="plate-image">
+                        <img src="https://source.unsplash.com/random/600x400/?healthy-plate" alt="Healthy Plate">
+                    </div>
+                    <div class="plate-content">
+                        <h3>Ideal Food Proportions</h3>
+                        <p>Following the right food proportions is essential for managing hypertension. Here's our recommended plate composition:</p>
+                        <div class="portion-list">
+                            <div class="portion-item">50% Non-starchy vegetables (leafy greens, broccoli, peppers)</div>
+                            <div class="portion-item">25% Lean protein (fish, poultry, legumes)</div>
+                            <div class="portion-item">20% Whole grains (quinoa, brown rice, oats)</div>
+                            <div class="portion-item">5% Healthy fats (avocado, nuts, olive oil)</div>
+                            <div class="portion-item">Limited sodium (less than 1500mg daily)</div>
+                            <div class="portion-item">Potassium-rich foods (bananas, sweet potatoes, spinach)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Success Stories</h2>
+                </div>
+                <div class="testimonial-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-text">
+                            <p>"After following NutriWell's dietary recommendations for 3 months, my blood pressure normalized, and I was able to reduce my medication dosage significantly."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-img">
+                                <img src="https://source.unsplash.com/random/100x100/?person1" alt="John Doe">
+                            </div>
+                            <div class="author-info">
+                                <h4>John Doe</h4>
+                                <p>Age 58</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-text">
+                            <p>"The educational resources helped me understand how sodium affects my body. I've learned to cook delicious low-sodium meals that my whole family enjoys."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-img">
+                                <img src="https://source.unsplash.com/random/100x100/?person2" alt="Jane Smith">
+                            </div>
+                            <div class="author-info">
+                                <h4>Jane Smith</h4>
+                                <p>Age 45</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-text">
+                            <p>"I was skeptical at first, but the personalized approach made all the difference. My nutritionist understood my cultural food preferences and created a plan I can actually stick to."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-img">
+                                <img src="https://source.unsplash.com/random/100x100/?person3" alt="Robert Johnson">
+                            </div>
+                            <div class="author-info">
+                                <h4>Robert Johnson</h4>
+                                <p>Age 62</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>NutriWell</h3>
+                    <p>Helping you manage hypertension through evidence-based nutritional guidance and support.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <p>123 Wellness Avenue<br>Health City, HC 12345<br>Phone: (555) 123-4567<br>Email: info@nutriwell.com</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Follow Us</h3>
                     <div class="social-links">
-                        <a href="#">LinkedIn</a>
-                        <a href="#">GitHub</a>
-                        <a href="#">Twitter</a>
+                        <a href="#">FB</a>
+                        <a href="#">IG</a>
+                        <a href="#">TW</a>
+                        <a href="#">YT</a>
                     </div>
                 </div>
-                <div class="contact-form">
-                    <form id="contactForm">
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" id="name" name="name" required>
-                            <span class="error-message" id="nameError"></span>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" required>
-                            <span class="error-message" id="emailError"></span>
-                        </div>
-                        <div class="form-group">
-                            <label for="subject">Subject</label>
-                            <input type="text" id="subject" name="subject" required>
-                            <span class="error-message" id="subjectError"></span>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" rows="5" required></textarea>
-                            <span class="error-message" id="messageError"></span>
-                        </div>
-                        <button type="submit" class="btn">Send Message</button>
-                    </form>
-                    <div id="successMessage" class="success-message"></div>
-                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 NutriWell. All rights reserved.</p>
             </div>
         </div>
-    </section>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+2. about.html
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - NutriWell</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <h1>Nutri<span>Well</span></h1>
+            </div>
+            <nav>
+                <ul id="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link active">About Us</a></li>
+                    <li><a href="services.html" class="nav-link">Services</a></li>
+                    <li><a href="nutrition.html" class="nav-link">Nutrition Guide</a></li>
+                    <li><a href="hypertension.html" class="nav-link">Hypertension</a></li>
+                    <li><a href="gallery.html" class="nav-link">Success Stories</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    ☰
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About Page Content -->
+    <main class="page-content">
+        <section class="features">
+            <div class="container">
+                <div class="section-title">
+                    <h2>About NutriWell</h2>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-content">
+                        <h3>Our Mission</h3>
+                        <p>At NutriWell, we're dedicated to empowering individuals with hypertension to take control of their health through evidence-based nutritional strategies. We believe that food is medicine, and proper nutrition can significantly impact blood pressure management and overall wellbeing.</p>
+                        
+                        <h3>Our Story</h3>
+                        <p>Founded in 2010 by a team of registered dietitians and cardiologists, NutriWell emerged from a shared frustration with the lack of practical, sustainable nutritional guidance for hypertension patients. We've since helped thousands of clients develop healthier relationships with food while managing their blood pressure effectively.</p>
+                        
+                        <h3>Our Approach</h3>
+                        <p>We combine scientific research with practical culinary strategies to create personalized nutrition plans that are both effective and enjoyable. We don't believe in one-size-fits-all solutions or extreme restrictions. Instead, we focus on sustainable changes that fit into your lifestyle.</p>
+                    </div>
+                </div>
+                
+                <div class="section-title" style="margin-top: 60px;">
+                    <h2>Our Team</h2>
+                </div>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <div class="team-img">
+                            <img src="https://source.unsplash.com/random/300x300/?dietitian" alt="Dr. Sarah Williams">
+                        </div>
+                        <h3>Dr. Sarah Williams</h3>
+                        <p>Lead Nutritionist</p>
+                        <p>PhD in Nutritional Sciences, 15 years of experience in cardiovascular nutrition</p>
+                    </div>
+                    <div class="team-member">
+                        <div class="team-img">
+                            <img src="https://source.unsplash.com/random/300x300/?doctor" alt="Dr. Michael Chen">
+                        </div>
+                        <h3>Dr. Michael Chen</h3>
+                        <p>Cardiologist</p>
+                        <p>MD, FACC, specializing in hypertension management and preventive cardiology</p>
+                    </div>
+                    <div class="team-member">
+                        <div class="team-img">
+                            <img src="https://source.unsplash.com/random/300x300/?chef" alt="Chef Elena Rodriguez">
+                        </div>
+                        <h3>Chef Elena Rodriguez</h3>
+                        <p>Culinary Director</p>
+                        <p>Certified culinary medicine specialist, creating delicious low-sodium recipes</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2023 John Doe. All rights reserved.</p>
-            <ul class="social-links">
-                <li><a href="#">LinkedIn</a></li>
-                <li><a href="#">GitHub</a></li>
-                <li><a href="#">Twitter</a></li>
-            </ul>
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>NutriWell</h3>
+                    <p>Helping you manage hypertension through evidence-based nutritional guidance and support.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <p>123 Wellness Avenue<br>Health City, HC 12345<br>Phone: (555) 123-4567<br>Email: info@nutriwell.com</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#">FB</a>
+                        <a href="#">IG</a>
+                        <a href="#">TW</a>
+                        <a href="#">YT</a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 NutriWell. All rights reserved.</p>
+            </div>
         </div>
     </footer>
 
-    <script src="js/main.js"></script>
-    <script src="js/form-validation.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
+3. services.html
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - NutriWell</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <h1>Nutri<span>Well</span></h1>
+            </div>
+            <nav>
+                <ul id="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About Us</a></li>
+                    <li><a href="services.html" class="nav-link active">Services</a></li>
+                    <li><a href="nutrition.html" class="nav-link">Nutrition Guide</a></li>
+                    <li><a href="hypertension.html" class="nav-link">Hypertension</a></li>
+                    <li><a href="gallery.html" class="nav-link">Success Stories</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    ☰
+                </div>
+            </nav>
+        </div>
+    </header>
 
+    <!-- Services Page Content -->
+    <main class="page-content">
+        <section class="features">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Our Services</h2>
+                </div>
+                
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-img">
+                            <img src="https://source.unsplash.com/random/600x400/?consultation" alt="Initial Consultation">
+                        </div>
+                        <div class="feature-content">
+                            <h3>Initial Comprehensive Assessment</h3>
+                            <p>90-minute deep dive into your health history, current eating patterns, lifestyle factors, and specific needs related to hypertension management.</p>
+                            <ul>
+                                <li>Detailed health history review</li>
+                                <li>Current diet analysis</li>
+                                <li>Blood pressure tracking assessment</li>
+                                <li>Personalized goal setting</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-img">
+                            <img src="https://source.unsplash.com/random/600x400/?meal-plan" alt="Meal Planning">
+                        </div>
+                        <div class="feature-content">
+                            <h3>Customized Meal Planning</h3>
+                            <p>Personalized weekly meal plans designed specifically for hypertension management while considering your food preferences, cooking skills, and budget.</p>
+                            <ul>
+                                <li>DASH diet principles applied</li>
+                                <li>Low-sodium recipes</li>
+                                <li>Potassium-rich food emphasis</li>
+                                <li>Grocery shopping guidance</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-img">
+                            <img src="https://source.unsplash.com/random/600x400/?cooking-class" alt="Cooking Classes">
+                        </div>
+                        <div class="feature-content">
+                            <h3>Cooking Workshops</h3>
+                            <p>Hands-on virtual cooking classes teaching techniques for creating flavorful, low-sodium meals that support blood pressure management.</p>
+                            <ul>
+                                <li>Flavor enhancement without salt</li>
+                                <li>Meal preparation strategies</li>
+                                <li>Reading food labels effectively</li>
+                                <li>Healthy cooking techniques</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>NutriWell</h3>
+                    <p>Helping you manage hypertension through evidence-based nutritional guidance and support.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <p>123 Wellness Avenue<br>Health City, HC 12345<br>Phone: (555) 123-4567<br>Email: info@nutriwell.com</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#">FB</a>
+                        <a href="#">IG</a>
+                        <a href="#">TW</a>
+                        <a href="#">YT</a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 NutriWell. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 
+    <script src="js/script.js"></script>
+</body>
+</html>
+4. nutrition.html
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutrition Guide - NutriWell</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <h1>Nutri<span>Well</span></h1>
+            </div>
+            <nav>
+                <ul id="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About Us</a></li>
+                    <li><a href="services.html" class="nav-link">Services</a></li>
+                    <li><a href="nutrition.html" class="nav-link active">Nutrition Guide</a></li>
+                    <li><a href="hypertension.html" class="nav-link">Hypertension</a></li>
+                    <li><a href="gallery.html" class="nav-link">Success Stories</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    ☰
+                </div>
+            </nav>
+        </div>
+    </header>
 
+    <!-- Nutrition Guide Page Content -->
+    <main class="page-content">
+        <section class="features">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Nutrition Guide for Hypertension</h2>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-content">
+                        <h3>Key Principles of Hypertension Nutrition</h3>
+                        <p>Managing hypertension through diet involves several evidence-based approaches. The DASH (Dietary Approaches to Stop Hypertension) diet has been extensively studied and proven effective for blood pressure management.</p>
+                        
+                        <h4>Foods to Emphasize</h4>
+                        <ul>
+                            <li><strong>Fruits and vegetables:</strong> Rich in potassium, which helps balance sodium levels</li>
+                            <li><strong>Whole grains:</strong> Provide fiber and important nutrients</li>
+                            <li><strong>Lean proteins:</strong> Fish, poultry, legumes, and nuts</li>
+                            <li><strong>Low-fat dairy:</strong> Good source of calcium and vitamin D</li>
+                            <li><strong>Healthy fats:</strong> Olive oil, avocados, and nuts</li>
+                        </ul>
+                        
+                        <h4>Foods to Limit</h4>
+                        <ul>
+                            <li><strong>Sodium:</strong> Aim for less than 1,500mg daily</li>
+                            <li><strong>Processed foods:</strong> Often high in sodium and unhealthy fats</li>
+                            <li><strong>Sugar-sweetened beverages:</strong> Linked to increased blood pressure</li>
+                            <li><strong>Alcohol:</strong> Limit to moderate consumption</li>
+                            <li><strong>Saturated and trans fats:</strong> Found in fried foods and baked goods</li>
+                        </ul>
+                        
+                        <h3>Sample Daily Meal Plan</h3>
+                        <div class="feature-card">
+                            <div class="feature-content">
+                                <h4>Breakfast</h4>
+                                <p>Oatmeal made with low-fat milk, topped with berries and a tablespoon of walnuts. Herbal tea or black coffee.</p>
+                                
+                                <h4>Lunch</h4>
+                                <p>Large salad with mixed greens, grilled chicken, chickpeas, various vegetables, and olive oil vinaigrette. Whole grain roll on the side.</p>
+                                
+                                <h4>Snack</h4>
+                                <p>Apple slices with a tablespoon of almond butter, or carrot sticks with hummus.</p>
+                                
+                                <h4>Dinner</h4>
+                                <p>Baked salmon with quinoa and steamed broccoli. Seasoned with herbs, lemon, and garlic instead of salt.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>NutriWell</h3>
+                    <p>Helping you manage hypertension through evidence-based nutritional guidance and support.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <p>123 Wellness Avenue<br>Health City, HC 12345<br>Phone: (555) 123-4567<br>Email: info@nutriwell.com</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#">FB</a>
+                        <a href="#">IG</a>
+                        <a href="#">TW</a>
+                        <a href="#">YT</a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 NutriWell. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 
+    <script src="js/script.js"></script>
+</body>
+</html>
+5. hypertension.html
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hypertension Information - NutriWell</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <h1>Nutri<span>Well</span></h1>
+            </div>
+            <nav>
+                <ul id="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About Us</a></li>
+                    <li><a href="services.html" class="nav-link">Services</a></li>
+                    <li><a href="nutrition.html" class="nav-link">Nutrition Guide</a></li>
+                    <li><a href="hypertension.html" class="nav-link active">Hypertension</a></li>
+                    <li><a href="gallery.html" class="nav-link">Success Stories</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    ☰
+                </div>
+            </nav>
+        </div>
+    </header>
 
+    <!-- Hypertension Information Page Content -->
+    <main class="page-content">
+        <section class="features">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Understanding Hypertension</h2>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-content">
+                        <h3>What is Hypertension?</h3>
+                        <p>Hypertension, commonly known as high blood pressure, is a condition where the force of blood against your artery walls is consistently too high. This condition often develops over many years and can lead to serious health problems if left unmanaged, including heart disease, stroke, and kidney failure.</p>
+                        
+                        <h3>Blood Pressure Categories</h3>
+                        <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+                            <tr style="background-color: var(--primary); color: white;">
+                                <th style="padding: 12px; text-align: left;">Category</th>
+                                <th style="padding: 12px; text-align: left;">Systolic (mm Hg)</th>
+                                <th style="padding: 12px; text-align: left;">Diastolic (mm Hg)</th>
+                            </tr>
+                            <tr style="background-color: #f2f2f2;">
+                                <td style="padding: 12px; border: 1px solid #ddd;">Normal</td>
+                                <td style="padding: 12px; border: 1px solid #ddd;">Less than 120</td>
+                                <td style="padding: 12px; border: 1px solid #ddd;">and Less than 80</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 12px; border: 1px solid #ddd;">Elevated</td>
+                                <td style="padding: 12px; border: 1px solid #ddd;">120-129</td>
+                                <td style="padding: 12px; border: 1px solid #ddd;">and Less than 80</td>
+                            </tr>
+                            <tr style="background-color: #f2f2f2;">
+                                <td style="padding: 12px; border: 1px solid #ddd;">Hypertension Stage 1</td>
+                                <td style="padding: 12px; border: 1px solid #ddd;">130-139</td>
+                                <td style="padding: 12px; border: 1px solid #ddd;">or 80-89</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 12px; border: 1px solid #ddd;">Hypertension Stage 2</td>
+                                <td style="padding: 12px; border: 1px solid #ddd;">140 or higher</td>
+                                <td style="padding: 12px; border: 1px solid #ddd;">or 90 or higher</td>
+                            </tr>
+                        </table>
+                        
+                        <h3>How Nutrition Affects Blood Pressure</h3>
+                        <p>What you eat significantly impacts your blood pressure. Key nutritional factors include:</p>
+                        <ul>
+                            <li><strong>Sodium:</strong> Excess sodium causes your body to retain fluid, increasing blood pressure</li>
+                            <li><strong>Potassium:</strong> Helps balance sodium levels and ease tension in blood vessel walls</li>
+                            <li><strong>Calcium and Magnesium:</strong> Play roles in vascular contraction and relaxation</li>
+                            <li><strong>Fiber:</strong> Supports overall cardiovascular health</li>
+                            <li><strong>Alcohol:</strong> Excessive consumption can raise blood pressure</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>NutriWell</h3>
+                    <p>Helping you manage hypertension through evidence-based nutritional guidance and support.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <p>123 Wellness Avenue<br>Health City, HC 12345<br>Phone: (555) 123-4567<br>Email: info@nutriwell.com</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#">FB</a>
+                        <a href="#">IG</a>
+                        <a href="#">TW</a>
+                        <a href="#">YT</a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 NutriWell. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 
+    <script src="js/script.js"></script>
+</body>
+</html>
+6. gallery.html
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success Stories - NutriWell</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <h1>Nutri<span>Well</span></h1>
+            </div>
+            <nav>
+                <ul id="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About Us</a></li>
+                    <li><a href="services.html" class="nav-link">Services</a></li>
+                    <li><a href="nutrition.html" class="nav-link">Nutrition Guide</a></li>
+                    <li><a href="hypertension.html" class="nav-link">Hypertension</a></li>
+                    <li><a href="gallery.html" class="nav-link active">Success Stories</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    ☰
+                </div>
+            </nav>
+        </div>
+    </header>
 
+    <!-- Gallery Page Content -->
+    <main class="page-content">
+        <section class="features">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Success Stories & Healthy Eating</h2>
+                </div>
+                
+                <p style="text-align: center; margin-bottom: 30px;">See how our clients have transformed their health through nutritional changes. These images showcase not only their success but also the delicious, hypertension-friendly foods that helped them achieve their goals.</p>
+                
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="https://source.unsplash.com/random/600x400/?healthy-meal" alt="Healthy Meal">
+                        <div class="gallery-caption">
+                            <h4>Colorful Vegetable Stir-fry</h4>
+                            <p>Low sodium, high potassium meal</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://source.unsplash.com/random/600x400/?happy-person" alt="Success Story">
+                        <div class="gallery-caption">
+                            <h4>Michael, 54</h4>
+                            <p>Reduced BP from 150/95 to 125/82 in 4 months</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://source.unsplash.com/random/600x400/?salad" alt="Healthy Salad">
+                        <div class="gallery-caption">
+                            <h4>Potassium-Rich Salad</h4>
+                            <p>Spinach, avocado, beans, and seeds</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://source.unsplash.com/random/600x400/?fruits" alt="Fruits">
+                        <div class="gallery-caption">
+                            <h4>Blood Pressure Friendly Fruits</h4>
+                            <p>Berries, bananas, and citrus</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://source.unsplash.com/random/600x400/?success" alt="Success Story">
+                        <div class="gallery-caption">
+                            <h4>Sarah, 62</h4>
+                            <p>Managed hypertension without medication</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://source.unsplash.com/random/600x400/?cooking" alt="Cooking">
+                        <div class="gallery-caption">
+                            <h4>Healthy Cooking Workshop</h4>
+                            <p>Learning to cook with herbs instead of salt</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>NutriWell</h3>
+                    <p>Helping you manage hypertension through evidence-based nutritional guidance and support.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <p>123 Wellness Avenue<br>Health City, HC 12345<br>Phone: (555) 123-4567<br>Email: info@nutriwell.com</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#">FB</a>
+                        <a href="#">IG</a>
+                        <a href="#">TW</a>
+                        <a href="#">YT</a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 NutriWell. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+7. contact.html
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - NutriWell</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <h1>Nutri<span>Well</span></h1>
+            </div>
+            <nav>
+                <ul id="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About Us</a></li>
+                    <li><a href="services.html" class="nav-link">Services</a></li>
+                    <li><a href="nutrition.html" class="nav-link">Nutrition Guide</a></li>
+                    <li><a href="hypertension.html" class="nav-link">Hypertension</a></li>
+                    <li><a href="gallery.html" class="nav-link">Success Stories</a></li>
+                    <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    ☰
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contact Page Content -->
+    <main class="page-content">
+        <section class="features">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Contact Us</h2>
+                </div>
+                
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-content">
+                            <h3>Get In Touch</h3>
+                            <p>Have questions about managing hypertension through nutrition? Interested in our services? Reach out to us—we're here to help.</p>
+                            
+                            <div class="contact-info" style="margin-top: 30px;">
+                                <p><strong>Address:</strong> 123 Wellness Avenue, Health City, HC 12345</p>
+                                <p><strong>Phone:</strong> (555) 123-4567</p>
+                                <p><strong>Email:</strong> info@nutriwell.com</p>
+                                <p><strong>Hours:</strong> Monday-Friday, 9am-5pm EST</p>
+                            </div>
+                            
+                            <div class="social-links" style="margin-top: 20px;">
+                                <a href="#">FB</a>
+                                <a href="#">IG</a>
+                                <a href="#">TW</a>
+                                <a href="#">YT</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-content">
+                            <h3>Send Us a Message</h3>
+                            <form class="contact-form">
+                                <div class="form-group">
+                                    <label for="name">Your Name</label>
+                                    <input type="text" id="name" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Your Email</label>
+                                    <input type="email" id="email" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="subject">Subject</label>
+                                    <input type="text" id="subject" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">Your Message</label>
+                                    <textarea id="message" class="form-control" required></textarea>
+                                </div>
+                                <button type="submit" class="btn">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>NutriWell</h3>
+                    <p>Helping you manage hypertension through evidence-based nutritional guidance and support.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <p>123 Wellness Avenue<br>Health City, HC 12345<br>Phone: (555) 123-4567<br>Email: info@nutriwell.com</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#">FB</a>
+                        <a href="#">IG</a>
+                        <a href="#">TW</a>
+                        <a href="#">YT</a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 NutriWell. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
